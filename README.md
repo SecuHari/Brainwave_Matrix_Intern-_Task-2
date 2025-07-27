@@ -38,5 +38,10 @@ It scans directories to calculate file hashes and monitors running processes to 
 
 ---
 
-## SecuHari
+## 👨‍💻 Developed By
+  
+ 👨‍🎓 Name: Hareesh Kumar
 
+🏢 Internship: Brainwave Matrix Solutions
+
+🔗 LinkedIn: [Hareesh Kumar](https://www.linkedin.com/in/hareesh-kumar-02045a339/)
