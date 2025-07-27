@@ -21,65 +21,63 @@ This is a **Malware Detection Tool** built using **Python**, developed during my
 
 The tool performs the following:
 
-- Scans system directories for suspicious files by hashing them (SHA256)
-- Monitors running processes to detect unknown or unsafe ones
-- Logs suspicious activity to a file for review
+- 🔍 Scans system directories for suspicious files using SHA256
+- 🧠 Monitors running processes to detect potentially malicious behavior
+- 📄 Logs suspicious activity for review and audit
 
 ---
 
 ## 🌟 Features
 
-🛡️ Real-time malware and process detection  
-⚙️ Auto-scan every 30 seconds  
-🧠 Based on SHA256 hashing  
-📜 Clean and informative logs  
-📦 Lightweight and fast  
+| Feature                        | Description                                 |
+|-------------------------------|---------------------------------------------|
+| 🛡️ Real-time Detection        | Scans processes and files in real-time      |
+| ⚙️ Auto-scan                  | Scans every 30 seconds automatically        |
+| 🧠 SHA256 Hash Comparison     | Verifies files using secure hashes          |
+| 📜 Terminal Logging           | Clean output in terminal with status icons  |
+| 💾 Lightweight Script         | No heavy dependencies                       |
 
 ---
 
 ## 💻 Tech Stack
 
-| Tool      | Purpose               |
-|-----------|------------------------|
-| `Python`  | Programming Language   |
-| `psutil`  | Process Monitoring     |
-| `hashlib` | File Hash Generation   |
-| `os`      | Directory Walking      |
-| `time`    | Timed Auto-scan Loop   |
+| Tool/Library     | Purpose                       |
+|------------------|-------------------------------|
+| `Python 3.x`     | Core language                 |
+| `psutil`         | Process monitoring            |
+| `hashlib`        | SHA256 hashing                |
+| `os`, `time`     | Directory scan & timing       |
 
 ---
 
 ## 🎬 Screenshots
 
-### 🔍 Scanning Files
+### 🔍 File Scanning in Action
 
-<img src="./1.png" alt="Scanning Screenshot" width="800" style="border-radius: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.4);" />
-
----
-
-### ⚠️ Suspicious Processes Detected
-
-<img src="./2.png" alt="Suspicious Process Screenshot" width="800" style="border-radius: 20px; box-shadow: 0 0 20px rgba(255,0,0,0.4);" />
+<img src="./1.png" alt="Scanning Files" width="800" style="border-radius: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.4);" />
 
 ---
 
-### 📂 Hashes of Files & Shortcuts
+### ⚠️ Suspicious Processes Identified
 
-<img src="./3.png" alt="File Hash Screenshot" width="800" style="border-radius: 20px; box-shadow: 0 0 20px rgba(0,100,255,0.3);" />
+<img src="./2.png" alt="Suspicious Processes" width="800" style="border-radius: 20px; box-shadow: 0 0 20px rgba(255,0,0,0.4);" />
 
 ---
 
-## ⚙️ How It Works
+### 🧾 File Hash Results & Shortcuts
+
+<img src="./3.png" alt="File Hashes" width="800" style="border-radius: 20px; box-shadow: 0 0 20px rgba(0,100,255,0.3);" />
+
+---
+
+## ⚙️ How to Run
 
 ```bash
-$ python malware_detection_tool.py
+# Clone the repo
+git clone https://github.com/HareeshKumar/malware_detection_tool.git
 
+# Move into directory
+cd malware_detection_tool
 
-
-## 👨‍💻 Developed By
-  
- 👨‍🎓 Name: Hareesh Kumar
-
-🏢 Internship: Brainwave Matrix Solutions
-
-🔗 LinkedIn: [Hareesh Kumar]([url](https://www.linkedin.com/in/hareesh-kumar-02045a339/)
+# Run the main script
+python malware_detection_tool.py
