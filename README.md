@@ -38,5 +38,5 @@ It scans directories to calculate file hashes and monitors running processes to 
 
 ---
 
-## 🗂 Project Structure
+## SecuHari
 
