@@ -73,3 +73,13 @@ The tool performs the following:
 
 ```bash
 $ python malware_detection_tool.py
+
+
+
+## 👨‍💻 Developed By
+  
+ 👨‍🎓 Name: Hareesh Kumar
+
+🏢 Internship: Brainwave Matrix Solutions
+
+🔗 LinkedIn: [Hareesh Kumar]([url](https://www.linkedin.com/in/hareesh-kumar-02045a339/)
